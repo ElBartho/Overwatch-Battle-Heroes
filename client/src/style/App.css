@@ -1,0 +1,29 @@
+body {
+	background: #000;
+	color: #fff;
+}
+.App {
+	text-align: center;
+}
+
+.profile-info {
+	display: flex;
+	justify-content: center;
+}
+
+.profile-img,
+.heroes-img {
+	align-content: left;
+	width: 150px;
+	height: 150px;
+	border: 3px solid #fff;
+	border-radius: 75px;
+	object-fit: cover;
+}
+
+.profile-username,
+.profile-level {
+	align-content: left;
+	margin-left: 10px;
+	font-size: 26px;
+}
